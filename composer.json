@@ -1,9 +1,9 @@
 {
-    "name": "dcat-admin-extensions/backup",
-    "description": "description...",
+    "name": "tizipso/backup",
+    "description": "An admin interface for managing backups",
     "type": "library",
-    "keywords": ["dcat-admin", "extension"],
-    "homepage": "https://github.com/dcat-admin-extensions/backup",
+    "keywords": ["dcat-admin", "extension", "tizipso"],
+    "homepage": "https://github.com/tizipso/backup",
     "license": "MIT",
     "authors": [
         {

@@ -1,0 +1,27 @@
+{
+    "name": "dcat-admin-extensions/backup",
+    "description": "description...",
+    "type": "library",
+    "keywords": ["dcat-admin", "extension"],
+    "homepage": "https://github.com/dcat-admin-extensions/backup",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "余白",
+            "email": "tizips@qq.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.1.0",
+        "dcat/laravel-admin": "*",
+        "spatie/laravel-backup": "6.11.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "Dcat\\Admin\\Extension\\Backup\\": "src/"
+        },
+         "files": [
+            "src/bootstrap.php"
+        ]
+    }
+}
